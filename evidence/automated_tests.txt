@@ -1,0 +1,35 @@
+test_benchmark_generates_rows (test_benchmark.BenchmarkTests.test_benchmark_generates_rows) ... ok
+test_invalid_repeats_rejected (test_benchmark.BenchmarkTests.test_invalid_repeats_rejected) ... ok
+test_invalid_workers_rejected (test_benchmark.BenchmarkTests.test_invalid_workers_rejected) ... ok
+test_sequential_and_threaded_agree (test_benchmark.BenchmarkTests.test_sequential_and_threaded_agree) ... ok
+test_category_is_case_insensitive (test_models.ModelTests.test_category_is_case_insensitive) ... ok
+test_csv_formula_injection_guard (test_models.ModelTests.test_csv_formula_injection_guard) ... ok
+test_extensionless_file (test_models.ModelTests.test_extensionless_file) ... ok
+test_filter_case_insensitive (test_models.ModelTests.test_filter_case_insensitive) ... ok
+test_filter_category_and_text (test_models.ModelTests.test_filter_category_and_text) ... ok
+test_filter_no_matches (test_models.ModelTests.test_filter_no_matches) ... ok
+test_kilobytes_boundary (test_models.ModelTests.test_kilobytes_boundary) ... ok
+test_known_categories (test_models.ModelTests.test_known_categories) ... ok
+test_megabytes_boundary (test_models.ModelTests.test_megabytes_boundary) ... ok
+test_negative_size_rejected (test_models.ModelTests.test_negative_size_rejected) ... ok
+test_path_is_searchable (test_models.ModelTests.test_path_is_searchable) ... ok
+test_unknown_extension (test_models.ModelTests.test_unknown_extension) ... ok
+test_zero_bytes_boundary (test_models.ModelTests.test_zero_bytes_boundary) ... ok
+test_cancel_before_discovery (test_scanner.ScannerTests.test_cancel_before_discovery) ... ok
+test_file_record_metadata (test_scanner.ScannerTests.test_file_record_metadata) ... ok
+test_invalid_path (test_scanner.ScannerTests.test_invalid_path) ... ok
+test_missing_file_error (test_scanner.ScannerTests.test_missing_file_error) ... ok
+test_nonrecursive_discovery (test_scanner.ScannerTests.test_nonrecursive_discovery) ... ok
+test_preview_file_not_found (test_scanner.ScannerTests.test_preview_file_not_found) ... ok
+test_preview_full_text (test_scanner.ScannerTests.test_preview_full_text) ... ok
+test_preview_invalid_limit (test_scanner.ScannerTests.test_preview_invalid_limit) ... ok
+test_preview_shorten (test_scanner.ScannerTests.test_preview_shorten) ... ok
+test_recursive_discovery (test_scanner.ScannerTests.test_recursive_discovery) ... ok
+test_scan_paths_cancelled (test_scanner.ScannerTests.test_scan_paths_cancelled) ... ok
+test_scan_paths_deleted_during_processing (test_scanner.ScannerTests.test_scan_paths_deleted_during_processing) ... ok
+test_scan_paths_success (test_scanner.ScannerTests.test_scan_paths_success) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 0.015s
+
+OK

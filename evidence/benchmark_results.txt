@@ -1,0 +1,10 @@
+Demo: 800 temporary local files
+Run 1: sequential 0.005571s  800 files  151840 bytes
+Run 1: threaded   0.033172s  800 files  151840 bytes
+Run 2: sequential 0.007782s  800 files  151840 bytes
+Run 2: threaded   0.082996s  800 files  151840 bytes
+Run 3: sequential 0.006739s  800 files  151840 bytes
+Run 3: threaded   0.029109s  800 files  151840 bytes
+Average sequential: 0.006697s | threaded: 0.048426s | speedup (sequential/threaded): 0.14x
+Amdahl illustration (p=0.85, N=4): 1/((1-p)+p/N) = 2.76x theoretical maximum
+Raw benchmark CSV saved to evidence/benchmark_results.csv
