@@ -1,1 +1,1 @@
-Demo note: initial common line
+Demo note: main branch documents merge behaviour
