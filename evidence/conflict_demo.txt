@@ -1,1 +1,1 @@
-Demo note: main branch documents merge behaviour
+Demo note: main branch and feature branch changes are combined after conflict resolution.

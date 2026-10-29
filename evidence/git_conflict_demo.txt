@@ -1,0 +1,29 @@
+Task 13: real, controlled merge-conflict example while assembling this package.
+This example was produced by the package builder; it is NOT the student\x27s own work.
+$ git merge example/conflict-demo
+Auto-merging evidence/conflict_demo.txt
+CONFLICT (content): Merge conflict in evidence/conflict_demo.txt
+Automatic merge failed; fix conflicts and then commit the result.
+
+Conflict-marked file immediately after attempted merge:
+<<<<<<< HEAD
+Demo note: main branch documents merge behaviour
+=======
+Demo note: feature branch reviews merge behaviour
+>>>>>>> example/conflict-demo
+
+$ git status --short
+UU evidence/conflict_demo.txt
+?? build_windows.bat
+?? distribution/
+?? docs/ASSESSMENT_COVERAGE.md
+?? docs/BUILD_AND_VERIFICATION.md
+?? docs/GIT_WORKFLOW.md
+?? docs/TEST_PLAN.md
+?? docs/Technical_Report.pdf
+?? docs/Test_Plan.pdf
+?? evidence/git_conflict_demo.txt
+?? presentation/
+?? requirements-build.txt
+
+Resolution: replace the conflicting line with a combined explanation, git add and commit.
