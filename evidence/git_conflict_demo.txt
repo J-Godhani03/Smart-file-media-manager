@@ -27,3 +27,6 @@ UU evidence/conflict_demo.txt
 ?? requirements-build.txt
 
 Resolution: replace the conflicting line with a combined explanation, git add and commit.
+
+After resolution, Git history records the merge commit. This is a training example only.
+For personal course evidence, repeat a controlled conflict and explain the decisions yourself.
