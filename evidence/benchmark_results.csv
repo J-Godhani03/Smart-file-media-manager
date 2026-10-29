@@ -1,0 +1,7 @@
+run,approach,seconds,files,total_bytes,workers
+1,sequential,0.005571,800,151840,1
+1,threaded,0.033172,800,151840,4
+2,sequential,0.007782,800,151840,1
+2,threaded,0.082996,800,151840,4
+3,sequential,0.006739,800,151840,1
+3,threaded,0.029109,800,151840,4
