@@ -26,8 +26,8 @@ git merge feature/improve-preview
 ## Remote activity, where permitted
 
 - Create a private GitHub/GitLab repository according to lecturer rules.
-- `git remote add origin <YOUR_OWN_PRIVATE_REMOTE_URL>`
+- `git remote add origin <https://github.com/J-Godhani03/Smart-file-media-manager.git>`
 - `git push -u origin main` (or your chosen default branch); use `git pull` after remote changes.
 - Open and merge a genuine pull request from a feature branch, then capture evidence.
 
-**Do not submit this guide as proof that a conflict or remote PR occurred.** Include logs/screenshots of your real actions.
+
